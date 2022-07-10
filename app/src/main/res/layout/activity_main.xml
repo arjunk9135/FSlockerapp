@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenwe"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="@font/aclonica"
+        android:text="WELCOME TO FS COMPANION"
+        android:textColor="#F3EEEE"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/accessbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="110dp"
+        android:background="@android:color/holo_green_light"
+        android:text="REQUEST ACCESS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="120dp"
+        android:text="LOGOUT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accessbtn" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/days_one"
+        android:text="SMART"
+        android:textColor="#EFE6E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/days_one"
+        android:text="SAFE"
+        android:textColor="#F4F1F1"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/days_one"
+        android:text="SECURE"
+        android:textColor="#F8F4F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="@font/aclonica"
+        android:text="FEEL SAFE TECHNOLOGIES"
+        android:textColor="#EDE2E2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/copyright" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Need Help?"
+        android:textColor="#ECE7E7"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lock1" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/imgbtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="120dp"
+        android:background="@android:color/holo_green_light"
+        android:backgroundTint="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@android:drawable/stat_sys_phone_call" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

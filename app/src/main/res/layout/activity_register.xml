@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greenwe"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/nameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:fontFamily="@font/brawler"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#EFE8E8"
+        android:textColorHint="#F1EBEB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:fontFamily="@font/brawler"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#F8EFEF"
+        android:textColorHint="#F1E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameid" />
+
+    <EditText
+        android:id="@+id/empid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:fontFamily="@font/brawler"
+        android:hint="Emp id"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#F3EBEB"
+        android:textColorHint="#E6DFDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailid1" />
+
+    <EditText
+        android:id="@+id/pwd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:fontFamily="@font/brawler"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#EAE5E5"
+        android:textColorHint="#F1EEEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empid" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signinbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="120dp"
+        android:background="@android:color/holo_green_light"
+        android:text="SIGN UP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwd1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/feell" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-240dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/cantarell_bold"
+        android:text="REGISTER"
+        android:textColor="#EFE6E6"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nameid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="260dp"
+        android:background="@color/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/name" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/ic_launcher_background"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/id" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        android:background="@color/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/pass" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="120dp"
+        android:text="FEEL SAFE TECHNOLOGIES"
+        android:textColor="#F1EFEF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinbtn" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="640dp"
+        android:background="@color/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/copyright" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

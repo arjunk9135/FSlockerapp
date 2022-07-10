@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "207802953341",
+    "project_id": "fslo-f1ac8",
+    "storage_bucket": "fslo-f1ac8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207802953341:android:694df8bb7ca8074f358b14",
+        "android_client_info": {
+          "package_name": "com.app.fslo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207802953341-u20gaqi5hp510akfqq4teomaqr33sd6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fslo",
+            "certificate_hash": "48bdbcd3c9a76579c03ba3339589c4cf645c9e5a"
+          }
+        },
+        {
+          "client_id": "207802953341-2r1asmsck4pk42cpgh40c2rmcu5b9sn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI1QyPKeOd6YuUcdRU1NJXV8mCxTE5LOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207802953341-2r1asmsck4pk42cpgh40c2rmcu5b9sn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
