@@ -74,6 +74,9 @@ public class otp extends AppCompatActivity {
             //for (int j = 0; j < message.length(); j++) {
                 //sample.append(""+ch[j]);
             //}
+
+
+
             int[] arr1={78,87,34,43};
             for (Character c : ch)
             {
